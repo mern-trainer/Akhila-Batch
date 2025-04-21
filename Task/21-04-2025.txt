@@ -1,0 +1,9 @@
+1. Create a news paper report using HTML.
+    a. Should have a heading.
+    b. Should have a paragraph.
+    c. Should have an image.
+
+2. Create an media gallery using HTML.
+    a. Should have a heading.
+    b. Should have a paragraph about the media gallery.
+    c. Should have image, video and audio.
