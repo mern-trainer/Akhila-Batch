@@ -1,0 +1,22 @@
+1. Create a question paper of 5 questions using HTML.
+    a. Each question should have a question number.
+    b. Each question should have a question statement.
+    c. Each question should have 4 options.
+    d. Each question should have a correct answer.
+
+2. Create an unordered list containing 5 items using HTML.
+    a. Each item should contain a radio button.
+    b. The radio buttons should be grouped together with the same name.
+    c. Each item should also contain a paragraph with a short description of the item.
+
+3. Create a registration form using HTML.
+    a. The form should contain the following fields:
+        i. Name
+        ii. Email
+        iii. Mobile Number
+        iv. Password
+        v. Confirm Password
+        vi. Gender
+        vii. Date of Birth
+        viii. Address
+    b. The form should also contain a submit button.
