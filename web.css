@@ -52,3 +52,14 @@ body{
     bottom: 300px;
     right: 30px;
 }
+
+.content{
+    cursor: pointer;
+}
+
+/* psudo class */
+
+.content:hover{
+    color: #fff;
+    scale: 2;
+}
