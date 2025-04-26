@@ -1,0 +1,54 @@
+/* Position */
+*{
+    margin: 0;
+}
+
+body{
+    background: #222;
+}
+
+.box_container{
+    height: 400px;
+    width: 400px;
+    background-color: royalblue;
+    margin-top: 100px;
+    margin-left: 100px;
+    position: relative;
+}
+
+/* relative, absolute, fixed, sticky */
+
+.inner_box_1{
+    width: 100px;
+    height: 100px;
+    background-color: azure;
+    position: relative;
+    top: 0;
+}
+
+.inner_box_2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.sticky_box{
+    position: sticky;
+    top: 0;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+.fixed_container{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    /* background-color: white; */
+    position: fixed;
+    bottom: 300px;
+    right: 30px;
+}
