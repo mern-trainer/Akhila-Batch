@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID</title>
+    <style>
+        *{
+            margin: 0;
+        }
+
+        .grid{
+            color: white;
+            padding: 5px;
+            display: grid;
+            height: calc(100vh - 10px);
+            gap: 4px;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: 1fr 6fr 1fr;
+        }
+
+        .grid div{
+            border-radius: 10px;
+        }
+
+        .content-center{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .grid .header {
+            background-color: green;
+            grid-column: 1/6;
+        }
+
+        .grid .sidebar {
+            background-color: purple;
+            grid-column: 1/2;
+        }
+
+        .grid .content{
+            background-color: red;
+            grid-column: 2/6;
+        }
+
+        .grid .footer{
+            background-color: blue;
+            grid-column: 1/6;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="header content-center">HEADER</div>
+        <div class="sidebar content-center">SIDEBAR</div>
+        <div class="content content-center">CONTENT</div>
+        <div class="footer content-center">FOOTER</div>
+    </div>
+</body>
+</html>
