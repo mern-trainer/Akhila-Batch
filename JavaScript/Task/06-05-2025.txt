@@ -1,0 +1,7 @@
+1. Create a function that takes a student's score as input and returns their grade (A, B, C, D, F) using if-else-if statements.
+
+2. Write a function that checks the current temperature and provides appropriate clothing recommendations based on different temperature ranges.
+
+3. Develop a calculator function that performs basic arithmetic operations (addition, subtraction, multiplication, division) on two numbers.
+
+4. Create a function that accepts a number (1-12) and returns the corresponding month name using if-else-if statements.
