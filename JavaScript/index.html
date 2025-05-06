@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <h1>JavaScript</h1>
+    <p>Scripting language for create dynamic / interactive web pages</p>
+    <p>JavaScript is an object based programing language.</p>
+    <script>
+        // variables -> container for storing data -> start with letter, _ or $
+        // datatypes -> string, number, boolean, null, undefined, object
+        // keywords -> var, let, const, function -> pre-reserved words
+        // identifier -> name of variable, function -> user defined words
+
+        var age = 20;  // assign
+
+        var a; // variable declaration
+        var a = 10 // initialization
+        
+        console.log(age);
+
+        var age = "Hello";
+
+        console.log(age);
+
+        // re-declare and re-assign
+
+        let b = 10;
+
+        console.log(b);
+        b = "Hi"
+
+        console.log(b);
+
+        // re-declare not allowed and re-assign allowed
+
+        const pi = 3.14
+        // pi = 10
+
+        console.log(pi);
+
+        // re-declare not allowed and re-assign not allowed
+
+        // function -> block of code or instructions to perform a specific task.
+
+        // sum of numbers -> 10, 20, 100, 300, 1000
+
+        // arithmatic operators -> +, -, *, /, %, ** 
+        // 2**5 = 32
+        function sum(n){ // n -> parameter
+            const sum = (n * (n + 1))/2;
+            return sum
+        }
+
+        const result = sum(100); // argument
+
+        console.log(result);
+
+        // conditional statements -> if, if-else, if-else-if 
+
+        // comparison operators -> >, <, >=, <=, ==, ===, !=, !==
+
+        if(10 < 5){
+            console.log("10 is less than 5"); // true
+        }else if(20 > 30){ // elif in c
+            console.log("20 is greater than 30"); // false
+        }else{
+            console.log("None of the above");
+        }
+
+        // find the largest number
+
+        function largest(a, b, c){
+            if(a > b && a > c){
+                console.log(a + " is the largest");
+            } else if(b > c){
+                console.log(b + " is the largest");
+            }else{
+                console.log(c + " is the largest");
+            }
+        }
+
+        largest(10,20,30)
+        largest(40,50,20)
+        largest(100,20,30)
+
+        // a == b && c == d -> values are equal -> true + true = true, true + false = false, false + true = false, false + false = false
+            // a == b || c == d -> values are equal -> true + true = true, true + false = true, false + true = true, false + false = false
+                // a =  true, !a -> false, !false -> true
+        // logical operators -> &&, ||, !
+    </script>
+</body>
+</html>
